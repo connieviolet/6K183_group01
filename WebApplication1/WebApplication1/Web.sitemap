@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="."  description="">
+        <siteMapNode url="Default.aspx" title="Home" description=""/>
+
+        <siteMapNode url="" title="Section One Deliverables" description ="">
+            <siteMapNode url ="ProjectScope.aspx" title="Project Scope" description=""/>
+            <siteMapNode url="feasibility.aspx" title ="Feasibility" description=""/>
+            <siteMapNode url="Archeticture.aspx" title ="Architecture and Environment" description=""/>
+            <siteMapNode url="VisionStatement.aspx" title ="Vision Statement" description=""/>
+            <siteMapNode url="CostDetails.aspx" title ="Cost Details and Analysis" description=""/>
+
+        </siteMapNode>
+
+        <siteMapNode url="" title="Section Two Deliverables" description ="">
+            <siteMapNode url="Requirements.aspx" title="Business Requirements" description=""/>
+            <siteMapNode url="nonfunctional.aspx" title="Non-Functional Requirements" description=""/>
+            <siteMapNode url="UserStories.aspx" title="User Stories" description=""/>
+            <siteMapNode url="domain.aspx" title="Business Domain Model" description=""/>
+            <siteMapNode url="UseCase.aspx" title="Use Case Diagram" description=""/>
+            <siteMapNode url="Constraints.aspx" title="Business Rules, Constraints and Dictionary" description=""/>
+        </siteMapNode>
+
+        <siteMapNode url="" title ="Section Three Deliverables" description="">
+            <siteMapNode url="scheduling.aspx" title="Project Scheduling" description=""/>
+        </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

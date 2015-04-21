@@ -1,0 +1,46 @@
+﻿<%@ Master Language="VB" CodeFile="MobileMaster.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styling/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    South Central Public Library Information System
+                </h1>
+            </div>
+                 <div class = "login">
+ 
+                     <asp:Label ID="dateLabel" class= "date" runat="server"></asp:Label>
+                </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource2"  Orientation = "Horizontal" CssClass="menu">
+                </asp:Menu>
+                <div id ="login">
+                </div>
+                <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" showstartingnode="false" SiteMapProvider="mobile.sitemap"/>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            
+        </div>
+
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+       <p> Copyright &#169; 2013, South Liberty Public Library</p>
+    </div>
+    </form>
+</body>
+</html>

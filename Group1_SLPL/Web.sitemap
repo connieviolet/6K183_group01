@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="."  description="" roles="*">
+    <siteMapNode url="Default.aspx" title="Home" description="" roles="*"/>
+
+    <siteMapNode url="~/admin/Default.aspx" title="Librarian" description ="" roles="r_SuperLibrarian, r_Librarian">
+            <siteMapNode url="~/admin/addNewPatron.aspx" title="Add New Patrons" description =""/>
+      <siteMapNode url="~/admin/viewAllPatrons.aspx" title="View Patrons" description =""/>
+      <siteMapNode url="~/admin/addNewMaterial.aspx" title="Add New Materials" description=""/>
+      <siteMapNode url="~/admin/viewAllMaterials.aspx" title="View Materials" description=""/>
+      <siteMapNode url="~/admin/RentMaterial.aspx" title="Rent Material" description=""/>
+      <siteMapNode url="~/admin/returnMaterial.aspx" title="Return Material" description=""/>
+      <siteMapNode url="~/admin/viewAllRentals.aspx" title="View all Rentals" description=""/>
+      <siteMapNode url ="~/admin/overdueMaterials.aspx" title="List of Overdue Materials" description=""/>
+      <siteMapNode url ="~/admin/viewActiveUsers.aspx" title="View Most Active Users" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="~/patron/Default.aspx" title="Patron" description ="" roles ="r_Patron">
+      <siteMapNode url="~/patron/accountDetails.aspx" title="Account Details" description="" roles ="r_Patron"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/viewAllMaterials.aspx" title="View Materials" description="" roles="r_Patron"/>
+    <siteMapNode url="~/contactInfo.aspx" title ="Contact Information" description=""/>
+    <siteMapNode url="~/login.aspx" title ="Login" description="">
+    
+    </siteMapNode>
+    </siteMapNode>
+  
+</siteMap>

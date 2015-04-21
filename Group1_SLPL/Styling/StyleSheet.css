@@ -1,0 +1,146 @@
+﻿.deletedrecordhighlight{
+    color:red;
+    font-weight:bold;}
+
+body{
+    background:#E0E0E0;
+    font-size: .80em;
+    font-family: "Helvetica Neue","Segoe UI", Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;}
+    
+    
+.date{color:white; text-align:center; padding-right:10px;}
+    
+.footer{text-align: center; font-style: inherit;}
+
+.Error{color:Red;}
+
+ul{
+    line-height: 40px;
+    }
+
+a:hover{
+    color: #696969;
+    text-decoration: none;}
+
+a:active{
+    color: #696969;}
+
+p{
+    margin-bottom: 10px;
+    line-height: 1.6em;}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 1.5em;
+    color: #666666;
+    margin-bottom: 0px;}
+
+h1{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align:center;}
+    
+h2{
+    font-size: 1.5em;
+    font-weight: 600;}
+
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2{
+    margin-top: 0px;}
+
+.page{
+    background-color: #fff;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid #496077;}
+
+.header{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #336699;
+    width: 100%;}
+
+.header h1{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;}
+
+.main{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 48px;
+    min-height: 420px;
+}
+
+#LoginStatus1{color:White; text-align:center; padding-left:10px;}
+
+.leftCol{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;}
+
+.footer{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;}
+
+div.hideSkiplink{
+    background-color:#3a4f63;
+    width:100%;}
+
+div.menu{
+    padding: 4px 20px 4px 8px;}
+
+div.menu ul{
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    width: auto;}
+
+div.menu ul li a, div.menu ul li a:visited{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    line-height: 1.35em;
+    padding: 2px 100px;
+    text-decoration: none;
+    white-space: nowrap; }
+
+div.menu ul li a:hover{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;}
+
+div.menu ul li a:active{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;}
+
+.clear{
+    clear: both;}
+
+.title{
+    text-align: center;
+    width: 100%;}
+
+.bold{
+    font-weight: bold;}
+    
+.login
+{
+    text-align: center;
+    padding-right:10px;
+    padding-left: 20px;
+    color:White;
+    }
+    
+.InsertButton1 {padding-right:20px;}

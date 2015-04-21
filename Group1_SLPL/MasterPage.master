@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styling/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">  
+       
+            <div class="title">
+                <h1>
+                 
+                    <asp:Image ID="TitleImg" class="Header_title" runat="server" Height="100px" Width="650px"
+                        ImageURL="~/images/boring2.jpg" alt='image not available'/>
+                </h1>
+            </div>
+                 <div class = "login">
+                   <center>  <asp:Label ID="dateLabel" runat="server" CssClass="date"></asp:Label>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" Font-Underline="False" />
+                </center></div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation = "Horizontal" CssClass="menu" StaticMenuItemStyle-HorizontalPadding="75px">
+                    <StaticMenuItemStyle HorizontalPadding="75px" VerticalPadding="10px" />
+                </asp:Menu>
+             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" showstartingnode="false" SiteMapProvider="XmlSiteMapProvider"/>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            
+        </div>
+
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+       <p> Copyright &#169; 2013, South Liberty Public Library</p>
+    </div>
+    </form>
+</body>
+</html>
